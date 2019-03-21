@@ -1,0 +1,26 @@
+@font-face{
+    font-family:miso-light;
+    src:url(../font/miso-light.ttf);
+}
+
+.LogoContainer{
+    display: block;
+    margin: auto;
+    width: 120px;
+    background-color: yellowgreen;
+    text-align: center;
+    cursor: default;
+    padding: none;
+    border: none;
+}
+
+.LogoContent{
+    vertical-align:middle;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing:-3px;
+    font-stretch:extra-condensed;
+    font-family:miso-light; 
+    font-weight: 500;
+    color:white;
+}

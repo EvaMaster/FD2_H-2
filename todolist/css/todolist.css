@@ -1,0 +1,59 @@
+.list{
+    display: flex;
+    margin: 0 auto;
+    width:600px;
+    background-color:burlywood;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.list-header,.list-btn{
+    display: flex;
+    width:500px;
+    height: 36px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.list__clear-btn,.list__clear-all-btn,.list__add-btn,.list__input,.deal__item{
+    outline: none;
+    height: auto;
+    display: flex;
+    border-radius: 5px;
+    border:2px solid #d17c2b;
+    background-color: #d7a372;
+}
+.btn-hover:hover{
+    background-color: #ee8c35;
+}
+.btn-active:active{
+    margin-top: -1px;
+    margin-bottom: 1px;
+}
+.list__input{
+    width: 400px;
+    height: 30px;
+    font-size: 1.4em;
+    text-align: center; 
+    background-color: #fff;
+}
+.list-deal{
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    list-style: none;
+}
+.deal__item{
+    display: flex;
+    width: auto;
+    border:2px solid #d17c2b;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.checked {
+ text-decoration: line-through;
+}
